@@ -27,7 +27,7 @@ a {
 a:hover {
 	color: #b1b123;
 }
-
+	
 header {
 	width: 97%;
 	margin-left: 1.5%;
@@ -39,8 +39,7 @@ header {
 	margin-bottom: 1%;
 }
 
-	/* LOGO */
-
+	/* logo */
 header #logo {
 	margin-left: 1%;
 	float: left;
@@ -53,6 +52,7 @@ header #logo img {
 	float: left;
 }
 
+	/* Name of site */
 header div {
 	text-shadow: 1px 1px 20px black, 5px 5px 1em rgba(0, 0, 0, 1);
 	width: 25%;
@@ -61,11 +61,12 @@ header div {
 	margin-top: 2.5%;
 	float: left;
 }
-
+	/* stars */
 header div img {
     width: 30px;
 }
 
+	/* form of search */
 header form {
     padding-top: 1.8%;
     margin-left: 2.5%;
@@ -88,12 +89,14 @@ header form button {
 	float: left;
 }
 
+	/* contacts */
 header p {
 	width: 23%;
 	text-align: left;
 	float: right;
 }
 
+	/* menu */
 header ul {
 	width: 45%;
 }
@@ -127,6 +130,7 @@ header ul li a:active{
     box-shadow: inset 0 0 13px black;
 }
 
+	/* main_content */
 .content {
 	float: left;
 	width: 94%;
@@ -137,7 +141,6 @@ header ul li a:active{
 }
 
 	/* FOOTER */
-
 footer {
 	width: 96%;
 	float: left;
