@@ -1,6 +1,4 @@
 <?php
-	
-	require "dataBase.php";
 
 	$title = "Главная";
 
