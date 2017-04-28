@@ -8,12 +8,14 @@
 
 	<?php require "blocks/header.php"; ?>
 
-	<input type="email" name="email" placeholder="Email"><br>
-	<input type="text" name="name" placeholder="Имя"><br>
-	<input type="text" name="phone" placeholder="Телефон"><br>
-	<textarea name="message" cols="30" rows="10" placeholder="Сообщение"></textarea><br>
-	<input type="button" name="send_mail" value="Отправить">
-	<div class="result"></div>
+	<div id="feedbakJQ">
+		<div class="result"></div>
+		<input type="email" name="email" placeholder="Email"><br>
+		<input type="text" name="name" placeholder="Имя"><br>
+		<input type="text" name="phone" placeholder="Телефон"><br>
+		<textarea name="message" cols="30" rows="10" placeholder="Ваше сообщение"></textarea><br>
+		<input type="button" name="send_mail" value="Отправить">
+	</div>
 
 	<script>
 		$('[type="button"]').click(function() {
@@ -39,7 +41,7 @@
 
 	<a href="/">На главную</a>
 
-	<?php require "blocks/footer.php"; ?>
+	<?php require_once "blocks/footer.php"; ?>
 
 </body>
 </html>

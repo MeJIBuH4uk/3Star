@@ -14,6 +14,7 @@ body {
 	margin: 0;
 	text-decoration: none;
 	list-style: none;
+    outline: none;
 }
 
 img {
@@ -89,6 +90,7 @@ header form button {
 	border-radius: 4px;
 	float: left;
 	cursor: pointer;
+	transition: all.6s ease;
 }
 
 header form button:hover {
@@ -146,15 +148,52 @@ header ul li a:active{
 	// box-shadow: 3px 3px 20px 2px black;
 }
 
+#feedbakJQ {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+#feedbakJQ input[type="text"], #feedbakJQ input[type="email"] {
+	margin-bottom: 7px;
+	width: 300px;
+	padding: 5px;
+	font-size: 1.1em;
+	border: 1px solid rgb(207, 3, 27);
+	border-radius: 10px 0 10px 0;
+}
+
+#feedbakJQ input[type="text"]:hover, #feedbakJQ input[type="email"]:hover {
+	
+}
+
+#feedbakJQ input[type="button"] {
+	padding: 7px;
+	cursor: pointer;
+}
+
+#feedbakJQ textarea {
+	border: 1px solid rgb(207, 3, 27);
+	border-radius: 15px 0 15px 0;
+	padding: 7px 3px 3px 10px;
+	width: 300px;
+	font-size: 1.2em;
+	margin-bottom: 2px;
+}
+
+#feedbakJQ .result {
+	margin-bottom: 15px;
+}
+
 	/* FOOTER */
 footer {
 	width: 96%;
 	float: left;
-	background-color: #ff4d4d;
+	background-color: #3f51b5;
 	text-align: center;
 	padding: 1%;
-	margin: 1%;
-	border-radius: 10px;
+	margin: 2% 1% 0 1%;
+	border-radius: 10px 10px 0 0;
 	// box-shadow: 3px 3px 20px 2px black;
 }
 
