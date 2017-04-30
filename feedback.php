@@ -36,11 +36,6 @@
 		});
 	</script>
 
-	<br>
-	<hr>
-
-	<a href="/">На главную</a>
-
 	<?php require_once "blocks/footer.php"; ?>
 
 </body>
